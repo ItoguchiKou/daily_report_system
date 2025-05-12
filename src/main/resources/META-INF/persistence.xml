@@ -13,24 +13,24 @@
         <!-- 接続設定 -->
         <properties>
             <!-- JDBCドライバー -->
-            <property name="jakarta.persistence.jdbc.driver"
+            <property name="javax.persistence.jdbc.driver"
                 value="com.mysql.cj.jdbc.Driver" />
 
             <!-- 接続URL -->
-            <property name="jakarta.persistence.jdbc.url"
+            <property name="javax.persistence.jdbc.url"
                 value="jdbc:mysql://localhost/daily_report_system?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;useUnicode=true&amp;characterEncoding=utf8" />
 
             <!-- データベースユーザー -->
-            <property name="jakarta.persistence.jdbc.user"
+            <property name="javax.persistence.jdbc.user"
                 value="repuser" />
 
             <!-- データベースパスワード -->
-            <property name="jakarta.persistence.jdbc.password"
+            <property name="javax.persistence.jdbc.password"
                 value="reppass" />
 
             <!-- スキーマ生成 -->
             <property
-                name="jakarta.persistence.schema-generation.database.action"
+                name="javax.persistence.schema-generation.database.action"
                 value="create" />
 
             <!-- Hibernateプロパティ -->
